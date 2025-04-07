@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="partnet_185cf76909e948f0fa80fb391ee7ccee">
+	<link name="base" />
+	<link name="link_0">
+		<visual name="frame-15">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/new-1.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="frame-15--1">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/new-0.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="frame-15--2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/original-18.obj" />/&gt;
+			</geometry>
+		</visual>
+		
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/new-1-left.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/new-1-right.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/new-1-top.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/new-1-back.obj" />/&gt;
+			</geometry>
+		</collision>
+
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/new-0.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/original-18.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_0" type="fixed">
+		<origin rpy="1.570796326794897 0 -1.570796326794897" xyz="0 0 0" />
+		<child link="link_0" />
+		<parent link="base" />
+	</joint>
+
+
+	<link name="surface_plate_left">
+		<collision>
+			<origin xyz="0.06294762892501815 0.1261545965752331 -0.6810209999999997" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/shelf_plate_left.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+	<joint name="surface_joint_1" type="fixed">
+		<origin xyz="0 0 0" />
+		<child link="surface_plate_left" />
+		<parent link="link_1" />
+	</joint>
+
+	<link name="surface_plate_right">
+		<collision>
+			<origin xyz="0.06294762892501815 0.1261545965752331 -0.6810209999999997" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/shelf_plate_right.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+	<joint name="surface_joint_2" type="fixed">
+		<origin xyz="0 0 0" />
+		<child link="surface_plate_right" />
+		<parent link="link_1" />
+	</joint>
+
+	<link name="handle_link">
+		<visual name="handle-12">
+			<origin xyz="0.06294762892501815 0.1261545965752331 -0.6810209999999997" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/new-2.obj" />/&gt;
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0.06294762892501815 0.1261545965752331 -0.6810209999999997" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/new-2.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+	<joint name="handle_joint" type="fixed">
+		<origin xyz="0 0 0" />
+		<child link="handle_link" />
+		<parent link="link_1" />
+	</joint>
+
+
+	<link name="upper_shelf">
+		<visual>
+			<origin xyz="0.06294762892501815 0.1261545965752331 -0.6810209999999997" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/original-4.obj" />/&gt;
+			</geometry>
+		</visual>
+
+		<collision>
+			<origin xyz="0.06294762892501815 0.1261545965752331 -0.6810209999999997" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/original-4-left.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.06294762892501815 0.1261545965752331 -0.6810209999999997" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/original-4-bottom.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.06294762892501815 0.1261545965752331 -0.6810209999999997" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/original-4-right.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+	<joint name="upper_shelf_joint" type="fixed">
+		<origin xyz="0 0 0" />
+		<child link="upper_shelf" />
+		<parent link="link_1" />
+	</joint>
+
+	<link name="link_1">
+		<visual name="display_panel-11">
+			<origin xyz="0.06294762892501815 0.1261545965752331 -0.6810209999999997" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/new-3.obj" />/&gt;
+			</geometry>
+		</visual>
+		
+		<visual name="upper_shelf">
+			<origin xyz="0.06294762892501815 0.1261545965752331 -0.6810209999999997" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/original-4.obj" />/&gt;
+			</geometry>
+		</visual>
+
+
+
+		
+		
+
+		
+
+		<visual name="big-5">
+			<origin xyz="0.06294762892501815 0.1261545965752331 -0.6810209999999997" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/original-11.obj" />/&gt;
+			</geometry>
+		</visual>
+
+		
+
+
+		<visual name="glass-13">
+			<origin xyz="0.06294762892501815 0.1261545965752331 -0.6810209999999997" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/new-4.obj" />/&gt;
+			</geometry>
+		</visual>
+
+		<visual name="door_frame-20">
+			<origin xyz="0.06294762892501815 0.1261545965752331 -0.6810209999999997" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/new-5.obj" />/&gt;
+			</geometry>
+		</visual>
+
+		<collision>
+			<origin xyz="0.06294762892501815 0.1261545965752331 -0.6810209999999997" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/new-3.obj" />/&gt;
+			</geometry>
+		</collision>
+
+		
+
+
+
+		
+		
+
+
+
+		
+
+		<collision>
+			<origin xyz="0.06294762892501815 0.1261545965752331 -0.6810209999999997" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/original-11.obj" />/&gt;
+			</geometry>
+		</collision>
+		
+
+		<collision>
+			<origin xyz="0.06294762892501815 0.1261545965752331 -0.6810209999999997" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/new-4.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.06294762892501815 0.1261545965752331 -0.6810209999999997" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Dishwasher/2085/textured_objs/new-5-new.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+	<joint name="dishwasher_door" type="prismatic">
+		<origin xyz="-0.06294762892501815 -0.1261545965752331 0.105" />
+		<axis xyz="0 0 0.9999999999999999" />
+		<child link="link_1" />
+		<parent link="link_0" />
+		<limit lower="0" upper="0.712" effort="10.0" velocity="1.0" />
+	</joint>
+</robot>

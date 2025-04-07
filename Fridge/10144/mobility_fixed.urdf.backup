@@ -1,0 +1,1569 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="partnet_9e53ec8bedae98859807c66948157e66">
+	<link name="base" />
+	<link name="door_frame">
+		<visual name="door_frame-13">
+			<origin xyz="-0.29319931760430357 0 -0.24443491768836934" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-124.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="handle-14">
+			<origin xyz="-0.29319931760430357 0 -0.24443491768836934" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/handle-new.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="glass-15">
+			<origin xyz="-0.29319931760430357 0 -0.24443491768836934" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-123.obj" />/&gt;
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="-0.29319931760430357 0 -0.24443491768836934" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-124.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.29319931760430357 0 -0.24443491768836934" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-123.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+
+	<link name="fridge_door_handle">
+		<visual name="handle">
+			<origin xyz="-0.29319931760430357 0 -0.24443491768836934" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/handle_grasp-new.obj" />/&gt;
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="-0.29319931760430357 0 -0.24443491768836934" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/handle_grasp-new.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+
+	<joint name="frame_to_handle" type="fixed">
+		<origin xyz="0 0 0" />
+		<axis xyz="0 1 0" />
+		<child link="fridge_door_handle" />
+		<parent link="door_frame" />
+		</joint>
+
+	<joint name="fridge_door" type="revolute">
+		<origin xyz="0.29319931760430357 0 0.24443491768836934" />
+		<axis xyz="0 1 0" />
+		<child link="door_frame" />
+		<parent link="fridge_body" />
+		<limit lower="0.0" upper="2.967" effort="10.0" velocity="1.0" />
+	</joint>
+
+
+	<joint name="fridge_collision_left" type="fixed">
+		<origin xyz="0 0 0" />
+		<child link="fridge_collision_left_link" />
+		<parent link="fridge_body" />
+	</joint>
+	<link name="fridge_collision_left_link">
+		<visual>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/fridge_body_left.obj" />/&gt;
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/fridge_body_left.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+
+	<joint name="fridge_collision_right" type="fixed">
+		<origin xyz="0 0 0" />
+		<child link="fridge_collision_right_link" />
+		<parent link="fridge_body" />
+	</joint>
+	<link name="fridge_collision_right_link">
+		<visual>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/fridge_body_right.obj" />/&gt;
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/fridge_body_right.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+
+	<joint name="fridge_collision_top" type="fixed">
+		<origin xyz="0 0 0" />
+		<child link="fridge_collision_top_link" />
+		<parent link="fridge_body" />
+	</joint>
+	<link name="fridge_collision_top_link">
+		<visual>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/fridge_body_top.obj" />/&gt;
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/fridge_body_top.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+
+	<joint name="fridge_collision_bottom" type="fixed">
+		<origin xyz="0 0 0" />
+		<child link="fridge_collision_bottom_link" />
+		<parent link="fridge_body" />
+	</joint>
+	<link name="fridge_collision_bottom_link">
+		<visual>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/fridge_body_bottom.obj" />/&gt;
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/fridge_body_bottom.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+
+	<joint name="fridge_collision_back" type="fixed">
+		<origin xyz="0 0 0" />
+		<child link="fridge_collision_back_link" />
+		<parent link="fridge_body" />
+	</joint>
+	<link name="fridge_collision_back_link">
+		<visual>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/fridge_body_back.obj" />/&gt;
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/fridge_body_back.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+
+
+	<link name="fridge_body">
+		<visual name="frame-10">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-119.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="frame-10">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-58.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="frame-10">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-122.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="other_leaf-20">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-59.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="foot-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-184.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="foot-8">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-185.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="foot-9">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-183.obj" />/&gt;
+			</geometry>
+		</visual>
+
+		
+		
+
+		
+	</link>
+
+
+	<joint name="joint_shelf_bottom" type="fixed">
+		<origin rpy="0 0 0" xyz="0 0 0" />
+		<child link="shelf_bottom" />
+		<parent link="fridge_body" />
+	</joint>
+
+	<link name="shelf_bottom">
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-2.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-3.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-54.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-51.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-55.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-32.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-13.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-30.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-12.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-42.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-31.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-36.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-20.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-27.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-53.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-7.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-28.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-41.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-50.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-38.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-8.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-57.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-37.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-40.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-56.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-45.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-6.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-49.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-47.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-46.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-35.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-44.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-21.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-52.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-23.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-39.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-34.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-33.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-25.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-5.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-16.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-43.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-29.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-26.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-48.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-24.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-19.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-22.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-10.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-15.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-18.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-14.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-11.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-9.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-17.obj" />/&gt;
+			</geometry>
+		</visual>
+
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-2.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-3.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-54.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-51.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-55.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-32.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-13.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-30.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-12.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-42.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-31.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-36.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-20.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-27.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-53.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-7.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-28.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-41.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-50.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-38.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-8.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-57.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-37.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-40.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-56.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-45.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-6.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-49.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-47.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-46.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-35.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-44.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-21.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-52.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-23.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-39.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-34.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-33.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-25.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-5.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-16.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-43.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-29.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-26.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-48.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-24.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-19.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-22.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-10.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-15.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-18.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-14.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-11.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-9.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-17.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+
+
+
+
+	<joint name="joint_shelf_top" type="fixed">
+		<origin rpy="0 0 0" xyz="0 0 0" />
+		<child link="shelf_top" />
+		<parent link="fridge_body" />
+	</joint>
+
+	<link name="shelf_top">
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-118.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-65.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-62.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-77.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-69.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-71.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-74.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-78.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-75.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-70.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-82.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-79.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-84.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-108.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-86.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-89.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-103.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-76.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-85.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-93.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-94.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-99.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-83.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-112.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-81.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-104.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-95.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-106.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-107.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-109.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-66.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-105.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-116.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-100.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-97.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-117.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-68.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-98.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-110.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-101.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-88.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-67.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-113.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-87.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-80.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-96.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-91.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-102.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-72.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-90.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-73.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-92.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-115.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-111.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="shelf-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-114.obj" />/&gt;
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-118.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-65.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-62.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-77.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-69.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-71.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-74.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-78.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-75.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-70.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-82.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-79.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-84.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-108.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-86.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-89.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-103.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-76.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-85.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-93.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-94.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-99.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-83.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-112.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-81.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-104.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-95.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-106.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-107.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-109.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-66.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-105.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-116.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-100.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-97.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-117.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-68.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-98.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-110.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-101.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-88.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-67.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-113.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-87.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-80.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-96.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-91.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-102.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-72.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-90.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-73.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-92.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-115.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-111.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Fridge/10144/textured_objs/original-114.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+
+
+
+	<joint name="joint_1" type="fixed">
+		<origin rpy="1.570796326794897 0 -1.570796326794897" xyz="0 0 0" />
+		<child link="fridge_body" />
+		<parent link="base" />
+	</joint>
+</robot>

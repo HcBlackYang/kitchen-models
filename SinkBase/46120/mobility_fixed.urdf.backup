@@ -1,0 +1,695 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="partnet_47f477a8b67d28028f1735145fdf5c5c">
+	<link name="base" />
+	<link name="link_0">
+		<visual name="cabinet_door_surface-14">
+			<origin xyz="-0.6809117331275008 -0.5970829725265503 -0.4504112098800815" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-58.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="cabinet_door_surface-14">
+			<origin xyz="-0.6809117331275008 -0.5970829725265503 -0.4504112098800815" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-60.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="cabinet_door_surface-14">
+			<origin xyz="-0.6809117331275008 -0.5970829725265503 -0.4504112098800815" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-51.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="cabinet_door_surface-14">
+			<origin xyz="-0.6809117331275008 -0.5970829725265503 -0.4504112098800815" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-56.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="cabinet_door_surface-14">
+			<origin xyz="-0.6809117331275008 -0.5970829725265503 -0.4504112098800815" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-52.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="cabinet_door_surface-14">
+			<origin xyz="-0.6809117331275008 -0.5970829725265503 -0.4504112098800815" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-61.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="cabinet_door_surface-14">
+			<origin xyz="-0.6809117331275008 -0.5970829725265503 -0.4504112098800815" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-55.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="cabinet_door_surface-14">
+			<origin xyz="-0.6809117331275008 -0.5970829725265503 -0.4504112098800815" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-54.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="cabinet_door_surface-14">
+			<origin xyz="-0.6809117331275008 -0.5970829725265503 -0.4504112098800815" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-53.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="cabinet_door_surface-14">
+			<origin xyz="-0.6809117331275008 -0.5970829725265503 -0.4504112098800815" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-59.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="handle-15">
+			<origin xyz="-0.6809117331275008 -0.5970829725265503 -0.4504112098800815" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-62.obj" />/&gt;
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="-0.6809117331275008 -0.5970829725265503 -0.4504112098800815" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-58.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.6809117331275008 -0.5970829725265503 -0.4504112098800815" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-60.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.6809117331275008 -0.5970829725265503 -0.4504112098800815" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-51.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.6809117331275008 -0.5970829725265503 -0.4504112098800815" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-56.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.6809117331275008 -0.5970829725265503 -0.4504112098800815" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-52.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.6809117331275008 -0.5970829725265503 -0.4504112098800815" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-61.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.6809117331275008 -0.5970829725265503 -0.4504112098800815" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-55.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.6809117331275008 -0.5970829725265503 -0.4504112098800815" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-54.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.6809117331275008 -0.5970829725265503 -0.4504112098800815" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-53.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.6809117331275008 -0.5970829725265503 -0.4504112098800815" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-59.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.6809117331275008 -0.5970829725265503 -0.4504112098800815" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-62.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_0" type="revolute">
+		<origin xyz="0.6809117331275008 0.5970829725265503 0.4504112098800815" />
+		<axis xyz="0 1 0" />
+		<child link="link_0" />
+		<parent link="link_4" />
+		<limit lower="0.0" upper="1.5707963267948966" effort="10.0" velocity="1.0" />
+	</joint>
+	<link name="link_1">
+		<visual name="cabinet_door_surface-12">
+			<origin xyz="0.7044071328766528 -0.5970829725265503 -0.4491579048027305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-38.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="cabinet_door_surface-12">
+			<origin xyz="0.7044071328766528 -0.5970829725265503 -0.4491579048027305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-47.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="cabinet_door_surface-12">
+			<origin xyz="0.7044071328766528 -0.5970829725265503 -0.4491579048027305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-40.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="cabinet_door_surface-12">
+			<origin xyz="0.7044071328766528 -0.5970829725265503 -0.4491579048027305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-43.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="cabinet_door_surface-12">
+			<origin xyz="0.7044071328766528 -0.5970829725265503 -0.4491579048027305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-41.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="cabinet_door_surface-12">
+			<origin xyz="0.7044071328766528 -0.5970829725265503 -0.4491579048027305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-48.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="cabinet_door_surface-12">
+			<origin xyz="0.7044071328766528 -0.5970829725265503 -0.4491579048027305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-46.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="cabinet_door_surface-12">
+			<origin xyz="0.7044071328766528 -0.5970829725265503 -0.4491579048027305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-42.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="cabinet_door_surface-12">
+			<origin xyz="0.7044071328766528 -0.5970829725265503 -0.4491579048027305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-39.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="cabinet_door_surface-12">
+			<origin xyz="0.7044071328766528 -0.5970829725265503 -0.4491579048027305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-45.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="handle-13">
+			<origin xyz="0.7044071328766528 -0.5970829725265503 -0.4491579048027305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-49.obj" />/&gt;
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0.7044071328766528 -0.5970829725265503 -0.4491579048027305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-38.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7044071328766528 -0.5970829725265503 -0.4491579048027305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-47.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7044071328766528 -0.5970829725265503 -0.4491579048027305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-40.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7044071328766528 -0.5970829725265503 -0.4491579048027305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-43.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7044071328766528 -0.5970829725265503 -0.4491579048027305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-41.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7044071328766528 -0.5970829725265503 -0.4491579048027305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-48.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7044071328766528 -0.5970829725265503 -0.4491579048027305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-46.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7044071328766528 -0.5970829725265503 -0.4491579048027305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-42.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7044071328766528 -0.5970829725265503 -0.4491579048027305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-39.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7044071328766528 -0.5970829725265503 -0.4491579048027305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-45.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7044071328766528 -0.5970829725265503 -0.4491579048027305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-49.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_1" type="revolute">
+		<origin xyz="-0.7044071328766528 0.5970829725265503 0.4491579048027305" />
+		<axis xyz="0 -1 0" />
+		<child link="link_1" />
+		<parent link="link_4" />
+		<limit lower="-0.0" upper="1.5707963267948966" effort="10.0" velocity="1.0" />
+	</joint>
+	<link name="link_2">
+		<visual name="drawer_front-29">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-32.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="drawer_side-30">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-31.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="drawer_side-31">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-34.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="drawer_back-32">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-35.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="drawer_bottom-33">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-33.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="other_leaf-35">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-36.obj" />/&gt;
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-32.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-31.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-34.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-35.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-33.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-36.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_2" type="prismatic">
+		<origin xyz="0 0 0" />
+		<axis xyz="0 0 1" />
+		<child link="link_2" />
+		<parent link="link_4" />
+		<limit lower="0" upper="0.8" effort="10.0" velocity="1.0" />
+	</joint>
+	<link name="link_3">
+		<visual name="drawer_side-21">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-24.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="drawer_side-22">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-27.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="drawer_back-23">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-28.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="drawer_bottom-24">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-26.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="drawer_front-25">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-25.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="other_leaf-27">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-29.obj" />/&gt;
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-24.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-27.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-28.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-26.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-25.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-29.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_3" type="prismatic">
+		<origin xyz="0 0 0" />
+		<axis xyz="0 0 1" />
+		<child link="link_3" />
+		<parent link="link_4" />
+		<limit lower="0" upper="0.8" effort="10.0" velocity="1.0" />
+	</joint>
+	<link name="link_4">
+		<visual name="shelf-37">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-22.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_side_panel-5">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-12.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_side_panel-6">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-17.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_side_panel-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-16.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_side_panel-8">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-18.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="vertical_side_panel-38">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-11.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="vertical_side_panel-38">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-10.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="vertical_side_panel-39">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-15.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="vertical_side_panel-39">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-14.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="back_panel-40">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-5.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="bottom_panel-41">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-2.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="frame_vertical_bar-42">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-3.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="frame_vertical_bar-43">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-7.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="frame_vertical_bar-44">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-21.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="frame_horizontal_bar-45">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-20.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="frame_horizontal_bar-46">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-19.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="frame_horizontal_bar-47">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-6.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="frame_horizontal_bar-48">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-4.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="frame_horizontal_bar-49">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-8.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="other_leaf-51">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-63.obj" />/&gt;
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-22.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-12.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-17.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-16.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-18.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-11.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-10.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-15.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-14.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-5.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-2.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-3.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-7.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-21.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-20.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-19.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-6.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-4.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-8.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/SinkBase/46120/textured_objs/original-63.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_4" type="fixed">
+		<origin rpy="1.570796326794897 0 -1.570796326794897" xyz="0 0 0" />
+		<child link="link_4" />
+		<parent link="base" />
+	</joint>
+</robot>

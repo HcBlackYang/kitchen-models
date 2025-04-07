@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="partnet_3e2ba8bd0af27797154dddaf2978e13f">
+	<link name="base" />
+	<link name="link_0">
+		<visual name="lid-1">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-6.obj" />/&gt;
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-6.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_0" type="prismatic">
+		<origin xyz="0 0 0" />
+		<axis xyz="0 1 0" />
+		<child link="link_0" />
+		<parent link="link_1" />
+		<limit lower="0" upper="0.05" effort="10.0" velocity="1.0" />
+	</joint>
+	<link name="link_1">
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-21.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-4.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-3.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-2.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-16.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-8.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-13.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-9.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-5.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-15.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-23.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-11.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-18.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-25.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-17.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-12.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-24.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-20.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-10.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-14.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-19.obj" />/&gt;
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-21.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-4.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-3.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-2.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-16.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-8.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-13.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-9.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-5.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-15.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-23.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-11.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-18.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-25.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-17.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-12.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-24.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-20.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-10.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-14.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/KitchenPot/100028/textured_objs/original-19.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_1" type="fixed">
+		<origin rpy="1.570796326794897 0 -1.570796326794897" xyz="0 0 0" />
+		<child link="link_1" />
+		<parent link="base" />
+	</joint>
+</robot>

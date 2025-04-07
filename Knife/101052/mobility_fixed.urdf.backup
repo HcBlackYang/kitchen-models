@@ -1,0 +1,584 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="partnet_12f3efd9-f013-4aab-922c-0328502acd3f">
+	<link name="base" />
+	<link name="link_0">
+		<visual name="translation_blade-1">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-8.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="translation_blade-1">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-7.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="translation_blade-1">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-9.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="translation_blade-1">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-4.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="translation_blade-1">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-5.obj" />/&gt;
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-8.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-7.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-9.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-4.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-5.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_0" type="prismatic">
+		<origin xyz="0 0 0" />
+		<axis xyz="0 0 1" />
+		<child link="link_0" />
+		<parent link="link_1" />
+		<limit lower="-0.1080000000000001" upper="0.6080000000000001" effort="10.0" velocity="1.0" />
+	</joint>
+	<link name="link_1">
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-21.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-30.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-41.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-28.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-64.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-43.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-52.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-22.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-26.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-3.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-65.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-33.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-44.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-49.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-61.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-39.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-59.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-63.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-27.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-55.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-50.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-31.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-37.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-15.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-56.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-62.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-23.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-58.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-11.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-38.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-34.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-18.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-25.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-17.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-12.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-20.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-47.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-53.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-1.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-14.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-40.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-2">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-46.obj" />/&gt;
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-21.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-30.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-41.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-28.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-64.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-43.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-52.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-22.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-26.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-3.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-65.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-33.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-44.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-49.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-61.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-39.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-59.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-63.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-27.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-55.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-50.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-31.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-37.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-15.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-56.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-62.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-23.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-58.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-11.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-38.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-34.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-18.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-25.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-17.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-12.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-20.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-47.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-53.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-1.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-14.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-40.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Knife/101052/textured_objs/original-46.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_1" type="fixed">
+		<origin rpy="1.570796326794897 0 -1.570796326794897" xyz="0 0 0" />
+		<child link="link_1" />
+		<parent link="base" />
+	</joint>
+</robot>

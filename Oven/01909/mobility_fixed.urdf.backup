@@ -1,0 +1,741 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="partnet_8295e45a734c059d1f3d773b4af1f0c9">
+	<link name="base" />
+	<link name="link_0">
+		<visual name="door-2">
+			<origin xyz="-0.4885809999999997 0.2785227594165167 -0.3882404379902186" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-43.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="door-2">
+			<origin xyz="-0.4885809999999997 0.2785227594165167 -0.3882404379902186" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-56.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="door-2">
+			<origin xyz="-0.4885809999999997 0.2785227594165167 -0.3882404379902186" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-17.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="door-2">
+			<origin xyz="-0.4885809999999997 0.2785227594165167 -0.3882404379902186" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-19.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="door-2">
+			<origin xyz="-0.4885809999999997 0.2785227594165167 -0.3882404379902186" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-20.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="door-2">
+			<origin xyz="-0.4885809999999997 0.2785227594165167 -0.3882404379902186" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-22.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="door-2">
+			<origin xyz="-0.4885809999999997 0.2785227594165167 -0.3882404379902186" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-24.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="door-2">
+			<origin xyz="-0.4885809999999997 0.2785227594165167 -0.3882404379902186" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-26.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="door-2">
+			<origin xyz="-0.4885809999999997 0.2785227594165167 -0.3882404379902186" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-45.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="door-2">
+			<origin xyz="-0.4885809999999997 0.2785227594165167 -0.3882404379902186" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-33.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="door-2">
+			<origin xyz="-0.4885809999999997 0.2785227594165167 -0.3882404379902186" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-54.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="door-2">
+			<origin xyz="-0.4885809999999997 0.2785227594165167 -0.3882404379902186" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-55.obj" />/&gt;
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="-0.4885809999999997 0.2785227594165167 -0.3882404379902186" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-43.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.4885809999999997 0.2785227594165167 -0.3882404379902186" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-56.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.4885809999999997 0.2785227594165167 -0.3882404379902186" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-17.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.4885809999999997 0.2785227594165167 -0.3882404379902186" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-19.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.4885809999999997 0.2785227594165167 -0.3882404379902186" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-20.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.4885809999999997 0.2785227594165167 -0.3882404379902186" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-22.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.4885809999999997 0.2785227594165167 -0.3882404379902186" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-24.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.4885809999999997 0.2785227594165167 -0.3882404379902186" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-26.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.4885809999999997 0.2785227594165167 -0.3882404379902186" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-45.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.4885809999999997 0.2785227594165167 -0.3882404379902186" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-33.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.4885809999999997 0.2785227594165167 -0.3882404379902186" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-54.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.4885809999999997 0.2785227594165167 -0.3882404379902186" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-55.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_0" type="revolute">
+		<origin xyz="0.4885809999999997 -0.2785227594165167 0.3882404379902186" />
+		<axis xyz="0.9999999999999999 0 0" />
+		<child link="link_0" />
+		<parent link="link_5" />
+		<limit lower="-0.0" upper="1.5707963267948966" effort="10.0" velocity="1.0" />
+	</joint>
+
+
+
+	<link name="knob_link_1">
+		<visual name="knob-3">
+			<origin xyz="-0.41708094673931356 -0.7720745754611937 0.15151306153341626" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-12.obj" />/&gt;
+			</geometry>
+		</visual>
+		
+		<collision>
+			<origin xyz="-0.41708094673931356 -0.7720745754611937 0.15151306153341626" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-12.obj" />/&gt;
+			</geometry>
+		</collision>
+		
+	</link>
+	<joint name="knob_joint_1" type="revolute">
+		
+		<axis xyz="0 0.19256852863983123 0.9812835277214688" />
+		<child link="knob_link_1" />
+		<parent link="link_1" />
+		<limit lower="-0.0" upper="1.046666667" effort="10.0" velocity="1.0" />
+	</joint>
+	<link name="link_1">
+		
+		<visual name="knob-3">
+			<origin xyz="-0.41708094673931356 -0.7720745754611937 0.15151306153341626" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-53.obj" />/&gt;
+			</geometry>
+		</visual>
+		
+		<collision>
+			<origin xyz="-0.41708094673931356 -0.7720745754611937 0.15151306153341626" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-53.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+	<joint name="knob_button_1" type="fixed">
+	    
+		
+		<origin xyz="0.36708094673931356 0.8020745754611937 -0.16151306153341626" />
+		<axis xyz="0 0.19256852863983123 0.9812835277214688" />
+		<child link="link_1" />
+		<parent link="link_5" />
+	</joint>
+	
+
+
+
+	<link name="knob_link_2">
+		<visual name="knob-4">
+			<origin xyz="-0.3262559467393136 -0.7720745754611937 0.15151306153341626" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-10.obj" />/&gt;
+			</geometry>
+		</visual>
+		
+		<collision>
+			<origin xyz="-0.3262559467393136 -0.7720745754611937 0.15151306153341626" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-10.obj" />/&gt;
+			</geometry>
+		</collision>
+		
+	</link>
+	<joint name="knob_joint_2" type="revolute">
+		
+		<axis xyz="0 0.19256852863983123 0.9812835277214688" />
+		<origin xyz="0 0 0" />
+		<child link="knob_link_2" />
+		<parent link="link_2" />
+		<limit lower="-0.0" upper="1.046666667" effort="10.0" velocity="1.0" />
+	</joint>
+	<link name="link_2">
+		
+		<visual name="knob-4">
+			<origin xyz="-0.3262559467393136 -0.7720745754611937 0.15151306153341626" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-51.obj" />/&gt;
+			</geometry>
+		</visual>
+		
+		<collision>
+			<origin xyz="-0.3262559467393136 -0.7720745754611937 0.15151306153341626" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-51.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+	<joint name="knob_button_2" type="fixed">
+		<origin xyz="0.2262559467393136 0.7720745754611937 -0.15151306153341626" />
+		<axis xyz="0 0.19256852863983123 0.9812835277214688" />
+		<child link="link_2" />
+		<parent link="link_5" />
+	</joint>
+	
+
+
+
+	<link name="knob_link_3">
+		<visual name="knob-5">
+			<origin xyz="0.25347888005765334 -0.7720745754611937 0.15151306153341626" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-8.obj" />/&gt;
+			</geometry>
+		</visual>
+		
+		<collision>
+			<origin xyz="0.25347888005765334 -0.7720745754611937 0.15151306153341626" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-8.obj" />/&gt;
+			</geometry>
+		</collision>
+		
+	</link>
+	<joint name="knob_joint_3" type="revolute">
+		
+		<axis xyz="0 0.19256852863983126 0.9812835277214688" /> --&gt;
+		<child link="knob_link_3" />
+		<parent link="link_3" />
+		<limit lower="-0.0" upper="1.046666667" effort="10.0" velocity="1.0" />
+		
+	</joint>
+	<link name="link_3">
+		
+		<visual name="knob-5">
+			<origin xyz="0.25347888005765334 -0.7720745754611937 0.15151306153341626" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-7.obj" />/&gt;
+			</geometry>
+		</visual>
+		
+		<collision>
+			<origin xyz="0.25347888005765334 -0.7720745754611937 0.15151306153341626" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-7.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+	<joint name="knob_button_3" type="fixed">
+		<origin xyz="-0.15347888005765334 0.7720745754611937 -0.15151306153341626" />
+		<axis xyz="0 0.19256852863983123 0.9812835277214688" />
+		<child link="link_3" />
+		<parent link="link_5" />
+	</joint>
+	
+
+
+	<link name="knob_link_4">
+		<visual name="knob-6">
+			<origin xyz="0.3520335 -0.7720735939143407 0.15153806521756305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-6.obj" />/&gt;
+			</geometry>
+		</visual>
+		
+		<collision>
+			<origin xyz="0.3520335 -0.7720735939143407 0.15153806521756305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-6.obj" />/&gt;
+			</geometry>
+		</collision>
+		
+	</link>
+	<joint name="knob_joint_4" type="revolute">
+		
+		<axis xyz="0 0.1925993712652328 0.9812774746157363" />
+		<child link="knob_link_4" />
+		<parent link="link_4" />
+		<limit lower="-0.0" upper="1.046666667" effort="10.0" velocity="1.0" />
+		
+	</joint>
+	<link name="link_4">
+		
+		<visual name="knob-6">
+			<origin xyz="0.3520335 -0.7720735939143407 0.15153806521756305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-49.obj" />/&gt;
+			</geometry>
+		</visual>
+		
+		<collision>
+			<origin xyz="0.3520335 -0.7720735939143407 0.15153806521756305" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-49.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+	<joint name="knob_button_4" type="fixed">
+	    
+		
+		<origin xyz="-0.3020335 0.8020745754611937 -0.16151306153341626" />
+		<axis xyz="0 0.19256852863983123 0.9812835277214688" />
+		<child link="link_4" />
+		<parent link="link_5" />
+	</joint>
+	
+
+
+
+	<link name="link_5">
+		
+		<visual name="door-1">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-44.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="door-1">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-58.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="door-1">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-59.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-29.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-21.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-30.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-36.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-41.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-28.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-52.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-2.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-16.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-35.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-39.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-27.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-50.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-31.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-37.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-48.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-15.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-23.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-38.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-34.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-18.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-25.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-42.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-32.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-47.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-1.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-40.obj" />/&gt;
+			</geometry>
+		</visual>
+		<visual name="base_body-7">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-46.obj" />/&gt;
+			</geometry>
+		</visual>
+
+
+
+		
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-44.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-58.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-59.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-29-collision.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-21.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-30.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-36.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-41.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-28.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-52.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-2.obj" />/&gt;
+			</geometry>
+		</collision>
+		
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-35.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-39.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-27.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-50.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-31.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-37.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-48.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-15.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-23.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-38.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-34.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-18.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-25.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-42.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-32.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-47.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-1.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-40.obj" />/&gt;
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="/home/blake/kitchen-worlds/assets/models/Oven/01909/textured_objs/original-46.obj" />/&gt;
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_5" type="fixed">
+		<origin rpy="1.570796326794897 0 -1.570796326794897" xyz="0.22 0 -0.3" />
+		<child link="link_5" />
+		<parent link="base" />
+	</joint>
+</robot>
